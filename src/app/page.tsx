@@ -1,3 +1,4 @@
+import { Button } from "./components/button";
 import "./globals.css";
 import { ArrowRight, Mail, Radio, User } from 'lucide-react' // npm install lucide-react
 
@@ -5,7 +6,7 @@ import { ArrowRight, Mail, Radio, User } from 'lucide-react' // npm install luci
 export default function Home() {
   return (
     <main>
-      <div className="bg-gray-200">Hello world! <ArrowRight /> </div>
+      
     </main>
   );
 }
