@@ -18,6 +18,8 @@
     "tailwindcss": "^4.0.7"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@biomejs/monorepo": "github:biomejs/biome",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
