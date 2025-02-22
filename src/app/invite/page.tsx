@@ -2,6 +2,7 @@ import Image from 'next/image'
 import logo from '../../assets/logo.svg'
 import { InviteLinkInput } from './invite-link-input'
 import { Ranking } from './ranking'
+import { Stats } from './stats'
 // import '../../app/globals.css';
 
 export default function InvitePage() {
@@ -34,7 +35,10 @@ export default function InvitePage() {
           </div>
         </div>
 
-       
+     
+        <InviteLinkInput inviteLink={'inviteLink'}/>
+
+        <Stats />
       
       </div>
       <Ranking />

@@ -1,3 +1,4 @@
+'use client'
 import { Copy, Link } from 'lucide-react'
 import { IconButton } from '../components/icon-button'
 import { InputField, InputIcon, InputRoot } from '../components/input'

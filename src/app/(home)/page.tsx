@@ -1,6 +1,6 @@
-import { Button } from "./components/button";
-import { IconButton } from "./components/icon-button";
-import { InputField, InputIcon, InputRoot } from "./components/input";
+import { Button } from "../components/button";
+import { IconButton } from "../components/icon-button";
+import { InputField, InputIcon, InputRoot } from "../components/input";
 
 import Image from "next/image";
 import logo from "../assets/logo.svg";
